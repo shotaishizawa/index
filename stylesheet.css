@@ -1,0 +1,100 @@
+Article, aside, footer, header, main, nav, section {
+	Display:block;
+}
+/*Header*/
+header { 
+	font-family:"Comic Sans MS", cursive ;
+	background-color:#03a9f4;
+	color:white;
+	text-align:center;
+	font-size:30px;
+	padding:20px;
+}
+nav.nav { 
+	font-family:"Comic Sans MS", cursive ;
+	background-color:#263238;
+	color:white;
+	text-align:center;
+	font-size:20px;
+	padding:15px;
+}
+
+.nav a{
+	text-decoration:none;
+	color:#FFF;
+	padding:17.5px;
+}
+.nav a:hover {
+	background: #0CF;
+}
+
+.nav a:active {
+	position: relative;
+	top: 2px;
+}
+
+.nav-transition {
+	transition: background .25s;
+}
+
+
+/*header {
+ 	margin: 0 0 2.631em;
+ 	padding: 2.618em 0;
+ 	text-align: center;
+ 	border-bottom: 10px solid #09F;
+ 	-webkit-transition: all ease-in-out 0.2s;
+ 	-moz-transition: all ease-in-out 0.2s;
+ 	-ms-transition: all ease-in-out 0.2s;
+ 	-o-transition: all ease-in-out 0.2s;
+	transition: all ease-in-out 0.2s;
+  	font-size: 1.2em;
+  	font-weight: 900;
+  	text-transform: uppercase;
+  	color: #FFF;
+	font-family:"Comic Sans MC", cursive ;
+}
+*/
+footer,p,section,aside,article{
+	margin-top:20px;
+	margin-right:30px;
+	margin-bottom:20px;
+	margin-left:30px;
+	background-color:#FFF;
+	padding:10px;
+	border-radius:2.5px;
+	font-family:comic "Comic Sans MS", cursive;
+}
+p, section, footer {
+		box-shadow: 2px 2px 2px #888888;
+}
+body {
+	background-color:#bdbdbd;
+}
+.btn {
+	border:thin;
+	font-size: 32px;
+	padding: 0.5em;
+	border-radius: 50px;
+	cursor:default;
+	outline: 0;
+	font-size:16px;
+	color:#FFF;
+}
+
+.btn-blue {
+	background: #3498db;
+}
+
+.btn-blue:hover {
+	background: #2980b9;
+}
+
+.btn-blue:active {
+	position: relative;
+	top: 2px;
+}
+
+.btn-transition {
+	transition: background .5s;
+}
